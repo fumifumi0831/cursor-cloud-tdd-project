@@ -1,5 +1,4 @@
 {
-  "snapshot": "",
   "install": "npm ci",
   "start": "",
   "terminals": [
@@ -10,7 +9,6 @@
     }
   ],
   "env": {
-    "NODE_ENV": "test",
-    "DATABASE_URL": "${CURSOR_SECRET_DATABASE_URL}"
+    "NODE_ENV": "test"
   }
 }
