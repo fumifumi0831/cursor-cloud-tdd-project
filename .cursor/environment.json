@@ -9,6 +9,7 @@
     }
   ],
   "env": {
-    "NODE_ENV": "test"
+    "NODE_ENV": "test",
+    "DATABASE_URL": "${CURSOR_SECRET_DATABASE_URL}"
   }
 }
